@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="inicio">
+        <h1 class="titulo">Jogo da Forca</h1>
+        <button class="btn" id="iniciar">Iniciar Jogo</button>
+        <button class="btn" id="nova-palavra">Adicionar Palavra</button> 
+        <form>
+          <input type="text" for="verifica" class="letraDigitada" id="letra-digitada" placeholder="Digite uma letra sem acento" required>
+          <button class="btn" id="verifica">Enviar</button>
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <div>
+        <canvas class="canvas" id="forca" height="600px" width="1200px"></canvas>
+      </div>
+    </main>
+
+    <footer>
+      <p class="copyright">&copy;Jogo da forca criado por Diego Hermys - 2022</p>
+    </footer>
+
+    <script type="text/javascript" src="canvas.js"></script>
+    <script type="text/javascript" src="forca.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,52 @@
+
+body {
+  background-color: #F3F5FC;
+  text-align: center;
+  width: 100%;
+  font-family: arial;
+  font-weight: bold;
+  margin: auto;
+}
+
+.inicio {
+  width: 100%;
+  position: relative;
+  z-index: 1000;
+  padding: 5px;
+}
+
+.titulo {
+  font-size: 2em;
+}
+
+.btn {
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  padding: 10px;
+  margin: 10px 10px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+  width: 20vw;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: darkblue;
+  transform: scale(1.02);
+}
+
+.letraDigitada {
+  margin: 0 10px;
+  width: 20vw;
+  height: 25px;
+}
+
+.canvas {
+  max-width: 100%;
+  padding: 0 20px 0 20px;
+  position: relative;
+  margin: 0 auto;
+}
